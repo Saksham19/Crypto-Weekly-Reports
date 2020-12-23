@@ -97,7 +97,7 @@ def glassnode(
     endpoint, 
     start,
     until, 
-    api_key = '1e736fd8-effa-413a-8732-c9f0c2df458a', # Insert your own API key here, this one is only illustrative.
+    api_key = 'insert_api_key', # Insert your own API key here, this one is only illustrative.
     asset = 'BTC',
     status = False,
     headers = False,
