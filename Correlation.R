@@ -214,7 +214,7 @@ ust_close$Date<-anytime(ust_close$Date)
 
 #sp500
 
-fredr_set_key("0f06e3b0a22d8ddccb15ec322acfd3f4")
+fredr_set_key("INSERT_KEY")
 sp500<-fredr(series_id = "SP500",observation_start = Sys.Date()-365,observation_end = Sys.Date())
 sp500<-subset(sp500,select = -c(series_id))
 #fixing missing dates
