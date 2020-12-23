@@ -105,7 +105,7 @@ colnames(eth_close_monthly)<-c("ETH","DATE")
 #GOLD
 
 
-Quandl.api_key("yvCz2e-G7Gg9rxxiTA-L")
+Quandl.api_key("insert_api_key")
 gold_data<-Quandl("CHRIS/CME_GC1",start_date=Sys.Date()-365,type="xts",collapse="daily",end_date=Sys.Date())
 gold_close<-gold_data$Settle
 
